@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "CLI application using MySQL and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vwhope/bamazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vwhope/bamazon/issues"
+  },
+  "homepage": "https://github.com/vwhope/bamazon#readme",
+  "dependencies": {
+    "columnify": "^1.5.4",
+    "inquirer": "^6.2.0",
+    "mysql": "^2.16.0"
+  }
+}
