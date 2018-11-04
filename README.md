@@ -17,6 +17,9 @@ Click for demo [bamazon demo]()
             * cut and paste the contents of both the schema.sql and seeds.sql files into workbench, click the lightning bolt
         * OR use the command line: mysql -u root -p < schema.sql
 
+* npm package Chalk was used to add color for improved readability in terminal
+* npm package Columnify was used to align columns of data, also for improved readability
+
 To run bamzon on your system follow these instructions.
 
 **Environment Setup**
@@ -52,11 +55,11 @@ To run bamzon on your system follow these instructions.
     ```
     node bamazonCustomer.js
     ```
-2. The main menu is displayed with three options as shown below: 
+2. After pressing enter, the main menu is displayed with three options as shown below: 
 
 ![Main Menu](assets/mainMenu.jpg)
 
-3. Use the up-down arrow keys to navigate to the option you would like to run, press space bar to select, then enter. Option 1 shows all the products available for purchase. After products are diplayed the user may choose to return to Main Menu or Quit the application.
+3. Use the up-down arrow keys to navigate to the option you would like to run. Press the space bar to select the option, then press enter. Option 1 displays all the products available for purchase. After products are diplayed the user may choose to return to Main Menu or Quit the application.
 
 ![Option 1](assets/viewProducts.jpg)
 
