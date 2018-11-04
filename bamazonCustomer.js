@@ -4,18 +4,20 @@
 
 // ================================ BEGIN GLOBAL and ENVIRONMENT VARIABLE DEFINITIONS =======================================================
 
+var dotenv = require('dotenv').config(); // mySQL password stored here
 var mysql = require('mysql');
+var sql_pw = process.env.MYSQL_PW;
 var inquirer = require('inquirer');
 var fs = require('fs');
-var columnify = require('columnify');
-var chalk = require('chalk');
+var columnify = require('columnify'); // format data in columns for console.log output
+var chalk = require('chalk'); // add color to console.log output
 
 // create a connection to database bamazon_DB (table: products)
 var connection = mysql.createConnection({
   host: 'localhost',
   port: 3306,
   user: 'root',
-  password: 'VH_13Root',
+  password: sql_pw, 
   database: 'bamazon_DB'
 });
 
