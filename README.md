@@ -2,7 +2,7 @@
 ### CLI application using MySQL and Node.js
 
 
-Click for demo [bamazon demo]() 
+Click for demo [bamazon demo](https://drive.google.com/file/d/1wIIdL4qk8rqniFOTd9fEMHyjLE8TU2wP/view) 
 
 * displays a menu that allows the user to:
     * view all products available for sale
